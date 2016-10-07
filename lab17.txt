@@ -1,0 +1,43 @@
+1.
+select * from customer
+
+2.
+select distinct country from customers
+
+3.
+select * from customers
+where CustomerID Like "BL%"
+
+4. 
+select * from Orders
+limit 100
+
+5. 
+select * from customers
+where PostalCode in ("1010", "3012", "12209", "05023")
+
+6. 
+Select * from orders
+where shipregion>"null"
+
+7. 
+select distinct country, city from customers
+
+8. 
+insert into customers(name) values ('daniel schneider')
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15. 
+
+16.
